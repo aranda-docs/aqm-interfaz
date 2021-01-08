@@ -1,0 +1,196 @@
+
+.navbar{
+    height: 64px;
+    width: 1380px;
+    background:#242d3a;
+    position: fixed;    
+}
+.navbarimg{
+    position: relative;
+    padding: 60px;
+    width: 60px;
+    top: 5px;
+    left: 20px;
+    background-size: 130px;
+    background: url('../img/logo_AQM.png') no-repeat;
+    text-decoration: none;   
+}
+
+.navbartri{
+    position: relative;
+    left: 230px;
+    bottom: 160px ;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid #242d3a;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    font-size: 1px;
+}
+
+.recuadro{
+    position: relative;
+    width: 800px;
+    height: 50px;
+    background: #000000;
+    opacity: 20%;
+    left: 230px;
+    bottom: 120px;
+    border-radius: 4px;
+}
+
+.reportestexto{
+    position: relative;
+    height: 3px;
+    left: 270px;
+    bottom: 197px;
+    color: #ffffff;
+    font-weight: normal;
+    border-radius: 3px;
+}
+.dashboard{
+    position: relative;
+    bottom:223px ;
+    left:840px;
+    width: 24px;
+    height: 24px;
+    background: #5d9aff;
+    border-radius: 2px;
+}
+
+.dashboardicono{
+    position: relative;
+    top: 2px;
+    right: 36px;
+    padding: 8px;
+    background-size: 6px;
+    background: url('../../../node_modules/iconv-lite/iconos/ic_dashboard.svg') no-repeat;
+}
+
+.dashboardtexto{
+   position: relative;
+   bottom: 25px;
+   right:  12px;
+   color: #ffffff;
+   font-weight: normal;
+}
+.dashboard ul{
+    list-style-type: none;
+    display: inline;
+}
+
+
+
+.reportescubo{ 
+    position: relative;
+    left: 915px;
+    bottom: 247px;
+    width: 24px;
+    height: 24px;
+    background: #161b23;
+    border-radius: 2px;
+}
+
+.reportesicono{
+    position: relative;
+    right: 36px;
+    top: 4px;
+    padding: 8px;
+    background: url('../../../node_modules/iconv-lite/iconos/ic_reports.svg') no-repeat;
+}
+
+.reportestexto1{
+    position: relative;
+    bottom: 25px;
+    right:  8px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.reportescubo ul{
+    list-style-type: none;
+    display: inline;
+}
+
+
+
+.catalogo{
+    position: relative;
+    left: 980px;
+    bottom: 270px;
+    width: 24px;
+    height: 24px;
+    background: #161b23;
+    border-radius: 2px;
+}
+
+.catalogoicono{
+    position: relative;
+    right: 36px;
+    top: 4px;
+    padding: 8px;
+    background: url('../../../node_modules/iconv-lite/iconos/ic_catalogo.svg') no-repeat;
+}
+
+.catalogotexto{
+    position: relative;
+    bottom: 25px;
+    right:  10px;
+    color: #ffffff;
+    font-weight: normal;
+}
+.catalogo ul{
+    list-style-type: none;
+    display: inline;
+}
+
+
+.configuraciontexto{
+    position: relative;
+    color: #ffffff;
+    font-family: clear sans;
+    font-size: 13px;
+    left: 1070px;
+    bottom: 310px;
+    font-weight: normal;
+}
+
+.configuracionicono{
+    background: url('../../../node_modules/iconv-lite/iconos/configuracion.svg') no-repeat;
+    padding: 24px;
+    position: relative;
+    left: 1146px;
+    bottom: 345px;
+    background-size: 29px;
+}
+
+.logOut{
+    position: relative;
+    left: 1180px;
+    bottom: 415px;
+
+}
+
+logOuttexto{
+    color: #5d9aff;
+    font-family: clear sans;
+    font-size: 13px;
+    font-weight: normal;text-decoration: none;
+}
+.nombreUsuario{
+    position: relative;
+    bottom: 430px;
+    left: 1080px;
+    width: 200px;
+    height: 50px;
+}
+
+.nombreUSuario1{
+    font-size: 12px;
+    color: #ffffff;
+}
+
+@media (mas-width:1280px){
+    .container{width:1200px ;}
+    .recuadro{width: 1200px;}
+}

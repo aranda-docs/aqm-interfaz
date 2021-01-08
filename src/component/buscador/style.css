@@ -1,0 +1,33 @@
+.Buscador{
+    position: fixed;
+    width: 1280px;
+    height: 40px;
+    background: #f2f2f2;
+    top:63px
+}
+.buttonmenu{
+    width: 30px;
+    height: 30px;
+    background: url('../../../node_modules/iconv-lite/iconos/abrir_panel.svg') no-repeat;
+    position: relative;
+    right: 40px; 
+    bottom: 505px;
+    border-radius: 3px;
+}
+
+.buscadortexto{
+    position: relative;
+    left: 190px;
+    top: 5px;
+    width: 300px;
+    height: 25px;
+    border-radius: 2px #f2f2f2 solid;
+}
+
+.buscadoricono{
+    position: relative;
+    background: url('../../../node_modules/iconv-lite/iconos/ico_search.svg') no-repeat;
+    padding: 12px;
+    top: 9px;
+    left:80px;
+}
