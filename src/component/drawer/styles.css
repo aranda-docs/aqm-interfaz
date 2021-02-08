@@ -1,0 +1,133 @@
+my-app {
+    padding: 26px;
+}
+.k-drawer-content  {
+    padding:  20px;
+    position: relative;
+    left:11px;
+    bottom: 80px; 
+}
+
+.k-drawer-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 135px;
+    right: 12px;   
+}
+
+.k-drawer-push {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.k-drawer-items{
+    position: relative;
+    top: 30px;
+    right: 10px;
+    font-size: 11px;
+    list-style: none;
+
+    background-size: 12px;
+    background-size: 12px;
+
+}
+
+.k-drawer-container .k-drawer-push .k-drawer-mini{
+    position: relative;
+    top: 90px;
+}
+
+ .k-drawer-items ul {
+    margin: 0;
+    padding: 12px;
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    position: relative;
+    right: 0px;
+    bottom:10px;
+
+}
+
+.k-drawer.k-drawer-start, .k-drawer-left .k-drawer {       
+    border-right:1px  #f2f2f2 solid;
+    position: relative;
+    width: 25px;
+    padding-right: 16px;
+}
+ 
+ 
+k-drawer-mini .k-drawer.k-drawer-start, .k-drawer-expanded .k-drawer.k-drawer-start, .k-drawer-left.k-drawer-mini .k-drawer .k-drawer-content{
+    border-right:1px #f2f2f2 solid;
+    width: 190px;
+    position: relative;
+    bottom: 70px;
+} 
+
+ 
+.k-drawer-left .k-drawer{
+    width: 25px;
+} 
+
+
+.k-drawer {
+    height: 100%;
+    width: 40px;
+    border-width: 0;
+    border-style: solid;
+    box-sizing: #f2f2f2 border-box;
+    outline: 0;
+    font-family: crearsans;
+    font-size: 14px;
+    line-height: 2;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    transition: all 300ms ease-in-out;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    bottom: 70px;
+}
+
+::after, ::before {
+    box-sizing: border-box;
+    border:#cccccc;
+} 
+
+
+.k-button{
+    background: url('../../icons/abrir_panel.svg') no-repeat;
+    width: 24px;
+    height: 24px;
+    padding: 22;
+    position: relative;
+    bottom:  1px;
+    left:-6px;
+    border: 0px;
+    background-size: 23px;
+    outline:none;
+}
+.k-button2{
+    background: url('../../icons/cerrar_panel.svg') no-repeat;
+    width: 24px;
+    height: 24px;
+    padding: 22;
+    position: relative;
+    bottom:  40px;
+    right:55px;
+    border: 0px;
+    background-size: 23px;
+    outline:none;
+}

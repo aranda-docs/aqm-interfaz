@@ -1,17 +1,17 @@
-import react from 'react';
-import Contenedor from './component/Contenido/Contenedor'
+import './App.css';
+import fonts from './fonts/fonts.css';
+import Navbar from './component/navbar/Navbar';
+
+import Drawer from './component/drawer/drawer'
 
 
 
 function App() {
   return (
-      <div className="App" >
-            <Contenedor/>
-          
-      </div>
- 
-
-
+    <div className="App">
+      <Navbar/>
+      <Drawer/>
+    </div>
   );
 }
 

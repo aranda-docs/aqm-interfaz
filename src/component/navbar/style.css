@@ -7,19 +7,20 @@
 }
 .navbarimg{
     position: relative;
-    padding: 60px;
-    width: 60px;
-    top: 5px;
-    left: 20px;
-    background-size: 130px;
     background: url('../img/logo_AQM.png') no-repeat;
-    text-decoration: none;   
+    padding: 90px;
+    width: 60px;
+    height: 60px;
+    top:95px;
+    left: 7px;
+    color: #cccccc;
+    font-family: clearsans;
 }
 
 .navbartri{
     position: relative;
     left: 230px;
-    bottom: 160px ;
+    bottom: 55px ;
     width: 0; 
     height: 0; 
     border-left: 20px solid #242d3a;
@@ -35,7 +36,7 @@
     background: #000000;
     opacity: 20%;
     left: 230px;
-    bottom: 120px;
+    bottom: 15px;
     border-radius: 4px;
 }
 
@@ -43,14 +44,15 @@
     position: relative;
     height: 3px;
     left: 270px;
-    bottom: 197px;
+    bottom: 94px;
     color: #ffffff;
     font-weight: normal;
     border-radius: 3px;
+    font-family: crearsans;
 }
 .dashboard{
     position: relative;
-    bottom:223px ;
+    bottom:123px ;
     left:840px;
     width: 24px;
     height: 24px;
@@ -64,15 +66,16 @@
     right: 36px;
     padding: 8px;
     background-size: 6px;
-    background: url('../../../node_modules/iconv-lite/iconos/ic_dashboard.svg') no-repeat;
+    background: url('../../icons/ic_dashboard.svg') no-repeat;
 }
 
 .dashboardtexto{
    position: relative;
-   bottom: 25px;
+   bottom: 20px;
    right:  12px;
    color: #ffffff;
    font-weight: normal;
+   font-family: crearsans;
 }
 .dashboard ul{
     list-style-type: none;
@@ -84,7 +87,7 @@
 .reportescubo{ 
     position: relative;
     left: 915px;
-    bottom: 247px;
+    bottom: 147px;
     width: 24px;
     height: 24px;
     background: #161b23;
@@ -96,15 +99,16 @@
     right: 36px;
     top: 4px;
     padding: 8px;
-    background: url('../../../node_modules/iconv-lite/iconos/ic_reports.svg') no-repeat;
+    background: url('../../icons/ic_reports.svg') no-repeat;
 }
 
 .reportestexto1{
     position: relative;
-    bottom: 25px;
+    bottom: 20px;
     right:  8px;
     color: #ffffff;
     font-weight: normal;
+    font-family: crearsans;
 }
 
 .reportescubo ul{
@@ -117,7 +121,7 @@
 .catalogo{
     position: relative;
     left: 980px;
-    bottom: 270px;
+    bottom: 170px;
     width: 24px;
     height: 24px;
     background: #161b23;
@@ -129,15 +133,16 @@
     right: 36px;
     top: 4px;
     padding: 8px;
-    background: url('../../../node_modules/iconv-lite/iconos/ic_catalogo.svg') no-repeat;
+    background: url('../../icons//ic_catalogo.svg') no-repeat;
 }
 
 .catalogotexto{
     position: relative;
-    bottom: 25px;
+    bottom: 20px;
     right:  10px;
     color: #ffffff;
     font-weight: normal;
+    font-family: crearsans;
 }
 .catalogo ul{
     list-style-type: none;
@@ -150,46 +155,61 @@
     color: #ffffff;
     font-family: clear sans;
     font-size: 13px;
-    left: 1070px;
-    bottom: 310px;
+    left: 1170px;
+    bottom: 210px;
     font-weight: normal;
+    font-family: crearsans;
 }
 
 .configuracionicono{
-    background: url('../../../node_modules/iconv-lite/iconos/configuracion.svg') no-repeat;
+    background: url('../../icons/configuracion.svg') no-repeat;
     padding: 24px;
     position: relative;
-    left: 1146px;
-    bottom: 345px;
-    background-size: 29px;
+    left: 1256px;
+    bottom:240px;
+    background-size: 20px;
 }
 
 .logOut{
     position: relative;
-    left: 1180px;
-    bottom: 415px;
+    left: 1280px;
+    bottom: 315px;
+    text-decoration: none;
+    
 
 }
 
 logOuttexto{
-    color: #5d9aff;
+ 
+    background: #5d9aff;
     font-family: clear sans;
     font-size: 13px;
-    font-weight: normal;text-decoration: none;
+    font-family: crearsans;
+  
 }
 .nombreUsuario{
     position: relative;
-    bottom: 430px;
-    left: 1080px;
+    bottom: 330px;
+    left: 1160px;
     width: 200px;
     height: 50px;
+    font-family: crearsans;
+   
 }
 
 .nombreUSuario1{
     font-size: 12px;
     color: #ffffff;
+    font-family: crearsans;
+}
+h5{
+    color: #5d9aff;
 }
 
+a{
+    text-decoration: none;
+    background: transparent;
+}
 @media (mas-width:1280px){
     .container{width:1200px ;}
     .recuadro{width: 1200px;}
